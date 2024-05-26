@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JetFlix</title>
+    <link rel="stylesheet" href="./register2.css">
+    <script defer src="./register2.js"></script>
+</head>
+<body>
+    <div class="container">
+         <div class="form-box">
+            <h1>
+                JetFlix
+            </h1>
+            <form id="registration-form" action="" method="get">
+                <div class="input-group">
+                    <div class="input-field">
+                         <input type="text" placeholder="Name" id="name" required>
+                    </div>
+
+                    <div class="input-field">
+                         <input type="text" placeholder="Birthdate" id="birthdate" required>
+                    </div>
+                    
+                    <div class="input-field">
+                        <input type="radio" id="gender-male" name="gender" value="male" required>
+                        <label for="gender-male">Male</label>
+                        <input type="radio" id="gender-female" name="gender" value="female" required>
+                        <label for="gender-female">Female</label>
+                   </div>
+                   
+                   <div class="input-field">
+                       <input type="checkbox" id="terms" required>
+                       <label for="terms">I agree to the terms and conditions</label>
+                   </div>
+                   
+                   <div class="btn-field">
+                    <button onclick="goToMovie()">
+                        SIGN IN
+                    </button>
+                   </div>
+                </div>
+            </form>
+         </div>
+    </div>
+</body>
+</html>

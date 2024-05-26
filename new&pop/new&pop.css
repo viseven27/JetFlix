@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sansita', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(69, 31, 196);
+    text-shadow: 2px 2px 8px #000000;
+    cursor: pointer;
+    width: 150px;
+    cursor: pointer;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);;
+    text-shadow: 2px 2px 8px #000000;
+    margin-left: 20px;
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.menu ul li {
+    margin-right: 20px;
+    font-weight: 100;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li :hover {
+    text-decoration: none;
+    color: rgb(69, 31, 196);
+}
+.header-icon {
+    display: flex;
+}
+
+.header-icon img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-icon img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.title{
+    color: white;
+    padding-top: 200px;
+    justify-content:center;
+    display: flex;
+    font-size:70px;
+    font-weight: bold;
+}
+
+.best-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.best-movie{
+    display: flex;
+    margin: 50px;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.best-movie-poster img{
+    width: 400px;
+    length: auto;
+    padding: 30px;
+}
+
+
+.video-content{
+    color: white;
+    justify-content: center;
+}
+
+.video-content{
+    padding-top: 100px;
+    padding-right: 100px ;
+    max-width: 500px;
+}
+
+button{
+    cursor: pointer;
+}
+.description{
+    width: 100%;
+}
+@media only screen and (max-width: 768px){
+    nav  logo{
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .header-icon{
+        display: none;
+    }
+    .search-icon {
+        margin-left: 0;
+    }
+}
